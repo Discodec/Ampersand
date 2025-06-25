@@ -1,0 +1,21 @@
+{
+  "name": "ampersand-discord-bot",
+  "version": "1.0.0",
+  "description": "Ampersand: Discord utility AI powered by Groq + Mixtral",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^1.6.0",
+    "@mozilla/readability": "^0.4.4",
+    "axios": "^1.6.8",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^0.5.0",
+    "jsdom": "^24.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
